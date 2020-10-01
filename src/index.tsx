@@ -32,6 +32,7 @@ class MutationExample extends React.Component {
                 <button
                   data-testid="test-push"
                   onClick={async () => {
+                    // FIREBASE DATA write here in {adsdas}
                     const { key } = await runMutation({ HHHH: "djifsjdf" });
                     this.setState({ pushedKey: key });
                   }}
